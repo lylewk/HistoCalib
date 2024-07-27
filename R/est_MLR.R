@@ -1,0 +1,12 @@
+est.MLR<-function(area=0.95) 
+{
+est=as.numeric(x.new%*%parms$Bx.y)
+hf=as.numeric(x.new%*%parms$inv.XX%*%x.new)
+se.pred=sqrt(parms$MSE*(1+hf))
+t.value=-qt((1-area)/2,170)
+lower=est-t.value*se.pred
+upper=est+t.value*se.pred
+sto=c(lower,est,upper)
+names(sto)=c('lwr','fit','upr')
+return(sto)
+}
