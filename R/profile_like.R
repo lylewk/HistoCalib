@@ -3,7 +3,7 @@
 #' @param area The desired area for prediction interval
 #'             default is 0.95 for 95% interval
 #'
-profile.like<-function (area=0.95)
+profile_like<-function (area=0.95)
 {
 
 c2n=function(epsilon){
