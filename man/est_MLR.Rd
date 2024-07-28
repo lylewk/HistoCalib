@@ -11,7 +11,7 @@ est_MLR(area = 0.95)
 default = 0.95 for 95% prediction interval}
 }
 \description{
-Estimate age and prediction interval using multiple linear regression
+See Brown (1993:Sec. 5.2)
 }
 \references{
 Brown, P. J. (1993). Measurement, Regression, and Calibration.
