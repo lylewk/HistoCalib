@@ -1,7 +1,1 @@
-Package: HistoCalib
-Version: 0.1
-Date: 2024-07-27
-Title: Histomorphometric Calibration
-Description: Takes OPD and average secondary osteon diameter to estimate age.
-Author: Lyle W Konigsberg <lylek@illinois.edu>
-Maintainer: Lyle W Konigsberg <lylek@illinois.edu>
+
