@@ -6,7 +6,7 @@
 #' interactive and consequenty takes its input
 #' from your entries.
 #'@examples
-#'#  Not run
+#'#Not run
 #'# convert()
 #'#  Enter OPD:
 #'# 1: 23
@@ -18,7 +18,6 @@
 #'#
 #'# g.OPD Diameter
 #'# 3.292091 0.120000
-#'#
 #'@references
 #'
 #'  #For the "gpower" transformation
