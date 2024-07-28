@@ -2,8 +2,7 @@
 % Please edit documentation in R/est_MLR.R
 \name{est_MLR}
 \alias{est_MLR}
-\title{Estimate age and prediction interval using multiple linear regression
-See Brown (1993:Sec. 5.2)}
+\title{Estimate age and prediction interval using multiple linear regression}
 \usage{
 est_MLR(area = 0.95)
 }
@@ -12,7 +11,8 @@ est_MLR(area = 0.95)
 default = 0.95 for 95% prediction interval}
 }
 \description{
-Estimate age and prediction interval using multiple linear regression
+This function uses multiple regression to estimate age and
+also returns the 95% (default) prediction intervals.
 See Brown (1993:Sec. 5.2)
 }
 \references{
