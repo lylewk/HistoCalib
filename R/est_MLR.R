@@ -3,7 +3,7 @@
 #' @param area The desired area for prediction interval
 #' default = 0.95 for 95% prediction interval
 #'
-est.MLR<-function(area=0.95)
+est_MLR<-function(area=0.95)
 {
 est=as.numeric(x.new%*%parms$Bx.y)
 hf=as.numeric(x.new%*%parms$inv.XX%*%x.new)
