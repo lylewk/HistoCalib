@@ -1,5 +1,6 @@
 #' Estimate age and prediction interval using profile likelihood method
-#' @description Finds age and prediction interval using the profile likelihood
+#'
+#' Finds age and prediction interval using the profile likelihood
 #' method.  See Brown (1993: Sec 5.8), albeit m=1 (so no replication)
 #'
 #' @param area The desired area for prediction interval,
