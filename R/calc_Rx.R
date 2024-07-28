@@ -1,6 +1,6 @@
 #' Find Rx (extrapolation statistic) and its probability value
 #'
-calc.Rx<-function ()
+calc_Rx<-function ()
 {
 
 b=parms$Bx.y[-1]
