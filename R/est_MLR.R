@@ -1,6 +1,5 @@
 #' Estimate age and prediction interval using multiple linear regression
-#'
-#' This function uses multiple regression to estimate age and
+#' @description This function uses multiple regression to estimate age and
 #' also returns the 95% (default) prediction intervals.
 #' See Brown (1993:Sec. 5.2)
 #'
@@ -11,7 +10,7 @@
 #' Brown, P. J. (1993). Measurement, Regression, and Calibration.
 #' New York: Oxford University Press.
 #'
-#'
+
 est_MLR<-function(area=0.95)
 {
 est=as.numeric(x.new%*%parms$Bx.y)
