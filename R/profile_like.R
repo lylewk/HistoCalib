@@ -1,4 +1,5 @@
 #' Estimate age and prediction interval using profile likelihood method
+#'
 #' Finds age and prediction interval using the profile likelihood
 #' method.  See Brown (1993: Sec 5.8), albeit m=1 (so no replication)
 #'
@@ -8,6 +9,7 @@
 #' @references
 #' Brown, P. J. (1993). Measurement, Regression, and Calibration.
 #' New York: Oxford University Press.
+#'
 #'
 profile_like<-function (area=0.95)
 {
