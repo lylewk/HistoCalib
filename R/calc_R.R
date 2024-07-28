@@ -1,6 +1,10 @@
 #' Find R (discrepancy statistic) and its probability value
 #'
 #' There are no parameters
+#' @references
+#' Brown, P. J. (1993). Measurement, Regression, and Calibration.
+#' New York: Oxford University Press.
+
 calc_R<-function()
 {
 

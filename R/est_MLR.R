@@ -1,7 +1,11 @@
 #' Estimate age and prediction interval using multiple linear regression
 #'
-#' @param area The desired area for prediction interval
+#' @param area The desired area for prediction interval,
 #' default = 0.95 for 95% prediction interval
+#'
+#' @references
+#' Brown, P. J. (1993). Measurement, Regression, and Calibration.
+#' New York: Oxford University Press.
 #'
 est_MLR<-function(area=0.95)
 {

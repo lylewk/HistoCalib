@@ -1,5 +1,9 @@
 #' Find Rx (extrapolation statistic) and its probability value
 #'
+#  @references
+#' Brown, P. J. (1993). Measurement, Regression, and Calibration.
+#' New York: Oxford University Press.
+#'
 calc_Rx<-function ()
 {
 

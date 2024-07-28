@@ -1,7 +1,11 @@
 #' Estimate age and prediction interval using profile likelihood method
 #'
-#' @param area The desired area for prediction interval
+#' @param area The desired area for prediction interval,
 #'             default is 0.95 for 95% interval
+#'
+#' @references
+#' Brown, P. J. (1993). Measurement, Regression, and Calibration.
+#' New York: Oxford University Press.
 #'
 profile_like<-function (area=0.95)
 {
