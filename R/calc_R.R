@@ -1,6 +1,8 @@
 #' Find R (discrepancy statistic) and its probability value
 #'
-#' There are no parameters
+#' This function finds the R statistic (see Brown 1993: eqn. 5.55)
+#' and its probability value.
+#'
 #' @references
 #' Brown, P. J. (1993). Measurement, Regression, and Calibration.
 #' New York: Oxford University Press.
