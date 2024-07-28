@@ -7,9 +7,13 @@
 profile_like(area = 0.95)
 }
 \arguments{
-\item{area}{The desired area for prediction interval
+\item{area}{The desired area for prediction interval,
 default is 0.95 for 95% interval}
 }
 \description{
 Estimate age and prediction interval using profile likelihood method
+}
+\references{
+Brown, P. J. (1993). Measurement, Regression, and Calibration.
+New York: Oxford University Press.
 }

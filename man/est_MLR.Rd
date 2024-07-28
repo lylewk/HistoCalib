@@ -7,9 +7,13 @@
 est_MLR(area = 0.95)
 }
 \arguments{
-\item{area}{The desired area for prediction interval
+\item{area}{The desired area for prediction interval,
 default = 0.95 for 95% prediction interval}
 }
 \description{
 Estimate age and prediction interval using multiple linear regression
+}
+\references{
+Brown, P. J. (1993). Measurement, Regression, and Calibration.
+New York: Oxford University Press.
 }

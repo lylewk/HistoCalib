@@ -9,3 +9,7 @@ calc_R()
 \description{
 There are no parameters
 }
+\references{
+Brown, P. J. (1993). Measurement, Regression, and Calibration.
+New York: Oxford University Press.
+}
