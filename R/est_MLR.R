@@ -1,5 +1,4 @@
 #' Estimate age and prediction interval using multiple linear regression
-#'
 #' See Brown (1993:Sec. 5.2)
 #'
 #' @param area The desired area for prediction interval,

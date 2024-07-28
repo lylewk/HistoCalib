@@ -1,9 +1,9 @@
 #' Find Rx (extrapolation statistic) and its probability value
 #'
-#' This function finds the R<sup>x</sup> statistic (Brown 1993: eqn 5.55)
+#' This function finds the Rx statistic (Brown 1993: eqn 5.55)
 #' and its probability value
 #'
-#'  @references
+#' @references
 #' Brown, P. J. (1993). Measurement, Regression, and Calibration.
 #' New York: Oxford University Press.
 #'
