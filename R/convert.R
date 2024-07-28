@@ -1,9 +1,21 @@
+#' Write "x.new" from input OPD and osteon diameter
+#'
 #' Write x.new that contains the "gpower"
 #' transformed OPD and the average complete
 #' secondary osteon diameter in mm.  This is
 #' interactive and consequenty takes its input
-#' from your enries.
+#' from your entries.
 #'
+#'@references
+#'
+#'  #For the "gpower" transformation
+#'
+#'  Kelmansky, D. M., Martínez, E. J., & Leiva, V. (2013).
+#'  A new variance stabilizing transformation for gene expression
+#'  data analysis. Statistical Applications in Genetics and
+#'  Molecular Biology, 12(6), 653-666.
+#'  https://doi.org/10.1515/sagmb-2012-0030
+
 convert=function ()
 {
   gpower=function(y,lambda=-0.08102)
