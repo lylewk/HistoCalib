@@ -1,7 +1,7 @@
 #' Find R (discrepancy statistic) and its probability value
 #'
 #' There are no parameters
-calc.R<-function()
+calc_R<-function()
 {
 
 b=parms$Bx.y[-1]
