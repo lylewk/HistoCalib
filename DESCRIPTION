@@ -1,1 +1,14 @@
-
+Package: HistoCalib
+Type: Package
+Title: Age estimation in humans from two histomorphometric variables
+Version: 0.1.0
+Author: Lyle W Konigsberg
+Maintainer: Lyle W Konigsberg <lylek@illinois.edu>
+Description: This package takes input OPD and average complete secondary
+    osteon diameter in mm. (via the script "convert").  It then writes
+    the object "x.new" which can be used in multiple linear regression 
+    or the profile likelihood method to estimate age.
+License: GPL
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.3.2
