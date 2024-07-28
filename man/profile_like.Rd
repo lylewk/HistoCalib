@@ -2,7 +2,9 @@
 % Please edit documentation in R/profile_like.R
 \name{profile_like}
 \alias{profile_like}
-\title{Estimate age and prediction interval using profile likelihood method}
+\title{Estimate age and prediction interval using profile likelihood method
+Finds age and prediction interval using the profile likelihood
+method.  See Brown (1993: Sec 5.8), albeit m=1 (so no replication)}
 \usage{
 profile_like(area = 0.95)
 }
@@ -11,6 +13,7 @@ profile_like(area = 0.95)
 default is 0.95 for 95% interval}
 }
 \description{
+Estimate age and prediction interval using profile likelihood method
 Finds age and prediction interval using the profile likelihood
 method.  See Brown (1993: Sec 5.8), albeit m=1 (so no replication)
 }

@@ -13,6 +13,19 @@ secondary osteon diameter in mm.  This is
 interactive and consequenty takes its input
 from your entries.
 }
+\examples{
+ Enter OPD:
+1: 23
+Read 1 item
+
+Enter average complete secondary osteon diameter in mm.
+1: .12
+Read 1 item
+
+g.OPD Diameter
+3.292091 0.120000
+
+}
 \references{
 #For the "gpower" transformation
 
