@@ -2,15 +2,26 @@
 % Please edit documentation in R/calc_R.R
 \name{calc_R}
 \alias{calc_R}
-\title{Find R (discrepancy statistic) and its probability value}
+\title{Calculate the R (discrepancy) statistic and its probability value}
 \usage{
 calc_R()
 }
+\value{
+returns the R value and its probability value.
+}
 \description{
-This function finds the R statistic (see Brown 1993: eqn. 5.55)
-and its probability value.
+Calculates the R statistic using Brown's (1993: eqn 5.55)
+equation and finds the probability value from a chi-square distribution with
+one degree of freedom.
+}
+\details{
+This script takes as input the gpower transformed OPD and average
+complete secondary osteon diameter in mm. from the mid-shaft 6th rib.
+This data comes from the vector x.new.  This vector was written by the
+interactive script convert()
 }
 \references{
 Brown, P. J. (1993). Measurement, Regression, and Calibration.
 New York: Oxford University Press.
+82(2), 199-220.
 }

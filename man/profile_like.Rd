@@ -2,19 +2,32 @@
 % Please edit documentation in R/profile_like.R
 \name{profile_like}
 \alias{profile_like}
-\title{Estimate age and prediction interval using profile likelihood method}
+\title{Find profile likelihood estimate and prediction interval for age}
 \usage{
-profile_like(area = 0.95)
+profile_like(perc = 95)
 }
 \arguments{
-\item{area}{The desired area for prediction interval,
-default is 0.95 for 95% interval}
+\item{perc}{Desired prediction interval.  The default value is perc=95,
+meaning the 95 percent prediction interval. There is the constraint that
+0<perc<100}
+}
+\value{
+returns lower bound of the prediction interval, the estimated
+value, and the upper bound of the prediction intervals.
 }
 \description{
-Finds age and prediction interval using the profile likelihood
-method.  See Brown (1993: Sec 5.8), albeit m=1 (so no replication)
+This script finds the profile likelihood estimate of age
+and the prediction interval with the desired width.
+}
+\details{
+This script takes as input the gpower transformed OPD and average
+complete secondary osteon diameter in mm. from the mid-shaft 6th rib.
+This data comes from the vector x.new.  This vector was written by the
+interactive script convert().  The profile likelihood method is given in
+Brown (1993: Sec. 5.8) and in this case with m=1 (no replication).
 }
 \references{
-Brown, P. J. (1993). Measurement, Regression, and Calibration.
+Brown, P. J. (1993). \emph{Measurement, Regression, and Calibration}.
 New York: Oxford University Press.
+82(2), 199-220.
 }

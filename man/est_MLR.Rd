@@ -2,20 +2,32 @@
 % Please edit documentation in R/est_MLR.R
 \name{est_MLR}
 \alias{est_MLR}
-\title{Estimate age and prediction interval using multiple linear regression}
+\title{Find multiple regression estimate and prediction interval for age}
 \usage{
-est_MLR(area = 0.95)
+est_MLR(perc = 95)
 }
 \arguments{
-\item{area}{The desired area for prediction interval,
-default = 0.95 for 95% prediction interval}
+\item{perc}{Desired prediction interval.  The default value is perc=95
+meaning the 95 percent prediction interval. There is the constraint that
+0<perc<100}
+}
+\value{
+returns lower bound of the prediction interval, the estimated
+value, and the upper bound of the prediction intervals.
 }
 \description{
-This function uses multiple regression to estimate age and
-also returns the 95% (default) prediction intervals.
-See Brown (1993:Sec. 5.2)
+This script finds multiple regression estimate of age
+and the prediction interval with the desired width.
+}
+\details{
+This script takes as input the gpower transformed OPD and average
+complete secondary osteon diameter in mm. from the mid-shaft 6th rib.
+This data comes from the vector x.new.  This vector was written by the
+interactive script convert().  The profile likelihood method is given in
+Brown (1993: Sec. 5.2).
 }
 \references{
-Brown, P. J. (1993). Measurement, Regression, and Calibration.
+Brown, P. J. (1993). \emph{Measurement, Regression, and Calibration}.
 New York: Oxford University Press.
+82(2), 199-220.
 }
