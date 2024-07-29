@@ -1,12 +1,16 @@
-#' Find Rx (extrapolation statistic) and its probability value
-#'
-#' This function finds the Rx statistic (Brown 1993: eqn 5.55)
-#' and its probability value
-#'
-#' @references
-#' Brown, P. J. (1993). Measurement, Regression, and Calibration.
+#' @title Calculate the Rx (extrapolation) statistic and its probability value
+#' @description Calculates the Rx statistic using Brown's (1993: eqn 5.55)
+#' equation and finds the probability value from a chi-square distribution with
+#' one degree of freedom.
+#' @details This script takes as input the gpower transformed OPD and average
+#' complete secondary osteon diameter in mm. from the mid-shaft 6th rib.
+#' This data comes from the vector x.new.  This vector was written by the
+#' interactive script convert()
+#' @return returns the Rx value and its probability value.
+#' @references Brown, P. J. (1993). Measurement, Regression, and Calibration.
 #' New York: Oxford University Press.
-#'
+#' 82(2), 199-220.
+
 calc_Rx<-function ()
 {
 

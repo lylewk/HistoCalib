@@ -1,10 +1,18 @@
-#' Write "x.new" from input OPD and osteon diameter
-#'
-#' Write x.new that contains the "gpower"
-#' transformed OPD and the average complete
-#' secondary osteon diameter in mm.  This is
-#' interactive and consequenty takes its input
-#' from your entries.
+#' @title Write "x.new" from input OPD and osteon diameter
+#' @description This is an interactive script that will have you enter
+#' the OPD and average complete secondary osteon diameter in mm.
+#' @details After entering your values for these two variables, the script
+#' will apply the "gpower" transformation (Kelansky et al. 2013: eqn. 5) to
+#' OPD and leave the diameter variable unchanged. NOTE: This script must be run
+#' before any of the other scripts in this package.
+#' @return returns a vector "x.new".  This will display on the screen but,
+#' more importantly, will also write to your workspace as input for all further
+#' scripts.  The vector has 1.0 as its first element (for the intercept in
+#' multiple regression).
+#' @references Kelmansky, D. M., Martínez, E. J., & Leiva, V. (2013).
+#' A new variance stabilizing transformation for gene expression data
+#' analysis. \emph{Statistical Applications in Genetics and Molecular Biolog}y,
+#' 12(6), 653-666. https://doi.org/10.1515/sagmb-2012-0030
 #'@examples
 #'#Not run
 #'# convert()
@@ -18,15 +26,6 @@
 #'#
 #'# g.OPD Diameter
 #'# 3.292091 0.120000
-#'@references
-#'
-#'  #For the "gpower" transformation
-#'
-#'  Kelmansky, D. M., Martínez, E. J., & Leiva, V. (2013).
-#'  A new variance stabilizing transformation for gene expression
-#'  data analysis. Statistical Applications in Genetics and
-#'  Molecular Biology, 12(6), 653-666.
-#'  https://doi.org/10.1515/sagmb-2012-0030
 
 convert=function ()
 {
